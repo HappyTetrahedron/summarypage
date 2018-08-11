@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><happenings>
+<entry xmlns="http://www.w3.org/1999/xhtml">
+<location>
+Location
+</location>
+<tagline>
+An example entry
+</tagline>
+<people>
+foo,bar
+</people>
+<text>
+Some text.
+</text>
+</entry>
+</happenings>

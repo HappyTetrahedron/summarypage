@@ -1,0 +1,113 @@
+html {
+  background-color: #efead3;
+  font-family:Tahoma,sans-serif;
+  text-align:justify;
+  font-size:13px;
+  line-height:22px;
+}
+
+#editor {
+  position:fixed;
+  top:10%;
+  left:10%;
+  width:80%;
+  height:80%;
+  display:none;
+  border:3px solid #6B4437;
+  background-color:#eae6c8;
+}
+
+#editor p {
+  margin:100px;
+}
+
+#editor input, #editor textarea {
+  width:100%;
+}
+
+#controls {
+  position:fixed;
+  top:0;
+  left:70px;
+  width:250px;
+  height:100%;
+  overflow:hidden;
+  
+}
+
+#scroller{
+  width:300px;
+  height:100%;
+  padding:0;
+  margin:0;
+  overflow-y:scroll;
+}
+
+#chopper{
+  width:250px;
+  padding:0;
+  margin:0;
+}
+
+#contents{
+  margin:auto;
+  width:600px;
+  padding-left:200px;
+}
+
+#backbuttondiv{
+  position:fixed;
+  top:20px;
+  left:20px;
+}
+
+#chapterListContents{
+  padding-left:0;
+}
+
+#chapterListContents li{
+  list-style-type:none;
+  margin-left:8px;
+}
+
+#chapterListContents li h4{
+  padding:0;
+  margin-bottom:-3px;
+}
+
+#chapterListContents li h4 a{
+  text-decoration:none;
+}
+
+#chapterListContents li p{
+  font-size:10px;
+  color:#ae8257;
+  margin:0;
+  padding:0;
+  line-height:12px;
+  text-align:left;
+}
+
+h1{
+  font-size:16px;
+  color:#6B4437;
+}
+
+h2{
+  font-size:16px;
+  color:#6B4437;
+}
+
+h3{
+  font-size:13px;
+  color:#6B4437;
+}
+
+h4{
+  color:#ae8257;
+  margin:0px;
+}
+
+a{
+  color:#6B4437;
+}
